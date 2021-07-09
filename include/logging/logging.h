@@ -70,7 +70,6 @@ bool ShouldCreateLogMessage(LogSeverity severity);
 #define WTF_VLOG_IS_ON(verbose_level) \
   ((verbose_level) <= ::wtf::GetVlogVerbosity())
 
-// The VLOG macros log with negative verbosities.
 #define WTF_VLOG_STREAM(verbose_level) \
   ::wtf::LogMessage(-verbose_level, __FILE__, __LINE__, nullptr).stream()
 

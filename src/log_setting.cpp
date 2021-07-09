@@ -16,7 +16,6 @@
 namespace wtf {
 namespace state {
 
-// Defined in log_settings_state.cc.
 extern LogSettings g_log_settings;
 
 }  // namespace state
