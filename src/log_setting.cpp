@@ -11,7 +11,7 @@
 #include <cstring>
 #include <iostream>
 
-#include "logging.h"
+#include "logging/logging.h"
 
 namespace wtf {
 namespace state {
