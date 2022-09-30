@@ -4,7 +4,7 @@
 
 #ifndef LOGGING_LOG_SETTING_H
 #define LOGGING_LOG_SETTING_H
-#include "log_level.h"
+#include "logging/log_level.h"
 namespace wtf {
 
 struct LogSettings {
